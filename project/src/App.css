@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  
+  height: 30px;
+}
+.App-face {
+  
+  height: 30px;
+  margin-left: 973px;
+  margin-right: 5px;
+}
+.App-twitter {
+  
+  height: 30px;
+}
+.App-header {
+  
+  padding: 20px;
+  color: white;
+}
+
+.App-background {
+  background: url("./imgs/background-home.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width:1920px;
+  max-width:200%;
+  height:700px;
+  margin-left:-50px;
+  margin-right:-50px;
+}
+
+.link{
+  font-family: 'Roboto', sans-serif;
+  color:#ff9f00;
+  font-size: 1.0em;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin-left:-130px;
+  margin-top:226px;
+  
+}
+
+
+.App-title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.7em;
+  color:white;
+  margin-top:-530px;
+  margin-left:30px;
+ 
+
+}
+
+
+.App-intro {
+  font-family: 'Roboto', sans-serif;
+  margin-top:60px;
+  font-size: large;
+  color:white;
+  font-size: 1.3em;
+  position:relative;
+}
+
+.App-intro hr {
+  height:2px; width:450px; border:none; color:#000; background-color:#ff9f00;  position:absolute;
+  left:50%;
+  top:50%;
+  margin-left:-240px;
+  margin-top:250px;
+}
+
+
+
+#hits{
+  height:400px;
+  background-color:#EEE;
+  padding:20px;
+}
+
+#hits h1 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 2.5em;
+  background-color:#EEE;
+  color:#AA1423;
+  margin-top:50px;
+}
+
+#hits h2 {
+  font-family: 'Roboto Slab', sans-serif;
+  color:#777;
+  font-weight:normal;
+}
+
+#hits .hits2{
+  background-color:white;
+  width:250px;
+  position:absolute;
+   left:50%;
+  top:50%;
+  margin-left:-121px;
+  margin-top:1250px;
+}
+
+#hits .arrow-down {
+    width: 0px;
+    height: 0px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid #FFF;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-41px;
+    margin-top:1090px;
+}
+
+#top5{
+  height:600px;
+}
+#top5 h1{
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 2.5em;
+  margin-top:302px;
+  color:#AA1423;
+
+}
+#top5 h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  font-size: 1.0em;
+  color:#AA1423;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin-left:-730px;
+  margin-top:650px;
+
+}
+
+
+footer h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  position:absolute;
+  margin-left:100px;
+  color:#AA1423;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  #hits .hits2{
+  
+  margin-left:308px;
+  position:relative;
+}
+    
+}

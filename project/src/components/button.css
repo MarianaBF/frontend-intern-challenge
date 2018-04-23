@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+.bt {
+   font-family: 'Roboto', sans-serif;
+   font-weight:bold;
+   border-top: 1px solid #f7870f;
+   background: #f7870f;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f7870f), to(#f7870f));
+   background: -webkit-linear-gradient(top, #f7870f, #f7870f);
+   background: -moz-linear-gradient(top, #f7870f, #f7870f);
+   background: -ms-linear-gradient(top, #f7870f, #f7870f);
+   background: -o-linear-gradient(top, #f7870f, #f7870f);
+   padding: 5.5px 11px;
+   -webkit-border-radius: 1px;
+   -moz-border-radius: 1px;
+   border-radius: 1px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 17px;
+   text-decoration: none;
+   vertical-align: middle;
+   position:absolute;
+   left:50%;
+   top:50%;
+   margin-left:100px;
+   margin-top:218px;
+   }
+
+   .modal{
+     font-family: 'Roboto', sans-serif;
+     font-weight:bold;
+     position:absolute;
+     left:50%;
+     top:50%;
+     margin-left:-130px;
+     margin-top:226px;
+   }
+
+.bt:hover {
+   font-family: 'Roboto', sans-serif;
+   border-top-color: #f75013;
+   background: #f75013;
+   color: #ccc;
+   }
+
+.bt:active {
+   font-family: 'Roboto', sans-serif;
+   border-top-color: #3c505e;
+   background: white;
+   }
